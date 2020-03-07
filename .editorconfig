@@ -1,0 +1,21 @@
+# Editor configuration, see http://editorconfig.org
+
+#Title:git editorconfig file
+#Author: Professor Krasso
+#Date: 6 March 2020
+#Modified By: Kim Pierce
+#Description: .editorconfig file for git
+
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false

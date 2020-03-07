@@ -1,0 +1,18 @@
+#Title:gitignore file
+#Author: Professor Krasso
+#Date: 6 March 2020
+#Modified By: Kim Pierce
+#Description: .gitignore file
+
+# IDE
+.vscode
+.idea
+
+# Node ddependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
