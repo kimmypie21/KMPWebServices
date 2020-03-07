@@ -1,0 +1,8 @@
+{
+    "name": "JavaScript Trivia Quiz",
+    "authors": "Sarah Kovar, Diandra McKenzie, Kimberly Pierce",
+    "private": true,
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
