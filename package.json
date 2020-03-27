@@ -3,6 +3,9 @@
     "authors": "Sarah Kovar, Diandra McKenzie, Kimberly Pierce",
     "private": true,
     "dependencies": {
-        "express": "^4.17.1"
+        "ejs": "^3.0.1",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.6",
+        "morgan": "^1.10.0"
     }
 }
