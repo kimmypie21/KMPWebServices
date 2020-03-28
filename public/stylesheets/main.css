@@ -1,8 +1,30 @@
+
 h1{
-  color: red;
+  text-align: center;
+  margin-top: 5%;
+  color: #76323F;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Shadows Into Light Two';
+}
+
+.card{
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container{
   width: 80%;
   margin: 0 auto;
+  background-color:#D7CEC7;
+  margin-top: 5%;
+  padding: 5%;
+}
+.carousel-item{
+  margin-left: 30%;
+
+}
+#carouselId
+{
+
 }
