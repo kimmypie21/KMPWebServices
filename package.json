@@ -1,11 +1,11 @@
 {
-    "name": "JavaScript Trivia Quiz",
-    "authors": "Sarah Kovar, Diandra McKenzie, Kimberly Pierce",
-    "private": true,
-    "dependencies": {
-        "ejs": "^3.0.1",
-        "express": "^4.17.1",
-        "mongoose": "^5.9.6",
-        "morgan": "^1.10.0"
-    }
+ "name": "WEB 330 Group Project",
+ "authors": "Kimberly Pierce, Diandra McKenzie, Sarah Kovar",
+ "private": true,
+ "dependencies": {
+  "body-parser": "^1.19.0",
+  "ejs": "^3.0.1",
+  "express": "^4.17.1",
+  "morgan": "^1.10.0"
+ }
 }
