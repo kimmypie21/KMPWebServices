@@ -17,14 +17,12 @@ h1, h2, h3, h4 {
   width: 80%;
   margin: 0 auto;
   background-color:#D7CEC7;
+  border-radius: 3px;
+  box-shadow: 2px 2px 18px #565656 ;
   margin-top: 5%;
   padding: 5%;
 }
 .carousel-item{
   margin-left: 30%;
-
-}
-#carouselId
-{
 
 }
