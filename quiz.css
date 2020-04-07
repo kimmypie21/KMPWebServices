@@ -18,7 +18,7 @@ h1 {
  }
 
 
-.quiz-wrapper {
+#quiz-wrapper {
     width: 80%;
     margin: 0 auto;
     margin-top: 3%;
@@ -29,12 +29,11 @@ h1 {
     box-shadow: 0 0 10px 2px;
 }
 
-.question {
+#inner-quiz {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     color:  #d7cec7;
-    width: 80%;
-    margin: 0 auto;
+
 }
 
 ul {

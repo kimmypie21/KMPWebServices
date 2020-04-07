@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Stylesheet - Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Stylesheet - CSS -->
+    <link rel="stylesheet" href="quiz.css">
+    <!-- Stylesheet - Fonts
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <!-- JavaScript Libraries -->
+    <script src="../KMPWebServices/knockout-3.5.1.js"></script>
+    <title>JavaScript Quiz</title>
+  </head>
+
+  <body>
+
+    <h1>JavaScript Quiz</h1>
+
+
+        <div id="quiz-wrapper">
+
+          <!--quiz-->
+
+          <div id="inner-quiz">
+            <div data-bind="foreach:Questions">
+                <p data-bind="text:question"></p>
+                  <div>
+                    <p data-bind="text:answerA"></p>
+                    <p data-bind="text:answerB"></p>
+                    <p data-bind="text:answerC"></p>
+                  </div>
+            </div>
+            <div>
+              <button data-bind="click: #">Previous</button>
+              <button data-bind="click: #">Next</button>
+            </div>
+
+
+
+
+
+          </div>
+
+        </div>
+          <!--end quiz-->
+
+
+
+
+      <script src="quiz2.js"></script>
+
+  </body>
+</html>
