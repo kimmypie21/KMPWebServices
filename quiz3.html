@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="quiz.css">
+    <script src="https://kit.fontawesome.com/88440ded13.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <title></title>
@@ -12,140 +13,151 @@
   <body>
 
   <h1>JavaScript Quiz</h1>
-  <div id="quizContainer" >
+  <div id="quizContainer"><!--begin quiz container-->
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
-      <div class="carousel-inner">
+
+
+      <div class="carousel-inner"><!--begin inner carousel-->
+
+
         <div class="carousel-item active">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <h5 class="card-title" data-bind="text:question1"></h5>
-              <h6 class="card-subtitle mb-2 text-muted"></h6>
-              <p class="card-text" data-bind="text:answer1"></p>
+              <div>
+                <h5 class="card-title" >Question 1</h5>
+              </div>
+              <h6 class="card-subtitle">JavaScript statements are separated by what?</h6>
+              <div>
+                <p data-bind="text:answer1"></p>
+            </div>
+          </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Question 2</h5>
+              <h6 class="card-subtitle">JavaScript variables are __________ for storing data values.</h6>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
 
+
         <div class="carousel-item">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <h5 class="card-title" data-bind="text:question2"></h5>
-              <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <h5 class="card-title">Question 3</h5>
+              <h6 class="card-subtitle">________________ is a block of code designed to perform a particular task.</h6>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Question 4</h5>
+              <h6 class="card-subtitle">What are JavaScript strings used for?</h6>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title" >Question 5</h5>
+              <h6 class="card-subtitle">What operator is used for concatenation?</h6>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Question 6</h5>
+              <h6 class="card-subtitle">What does DOM stand for?</h6>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card" ">
+            <div class="card-body">
+              <h5 class="card-title">Question 7</h5>
+              <h6 class="card-subtitle">JQuery is a JavaScript library.</h6>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Question 8</h5>
+              <h6 class="card-subtitle">What is $ shorthand for in this statement: <br>$('button').click.toggleClass('hidden')?</h6>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Question 9</h5>
+              <h6 class="card-subtitle">What is the purpose of this JavaScript code:<br> var = database?</h6>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" >Question 10</h5>
+              <h6 class="card-subtitle">How many times does this loop run? <br>for(i=0, i<=10, i++) {console.log(i);};</h6>
               <p class="card-text"></p>
             </div>
           </div>
         </div>
 
         <div class="carousel-item">
-          <div class="card" style="width: 18rem;">
+          <div class="card">
             <div class="card-body">
-              <h5 class="card-title" data-bind="text:question3"></h5>
-              <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <h5 class="card-title" ></h5>
+              <h6 class="card-subtitle"></h6>
               <p class="card-text"></p>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="carousel-item">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title" data-bind="text:question4"></h5>
-            <h6 class="card-subtitle mb-2 text-muted"></h6>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </div><!--end inner carousel-->
 
-    <div class="carousel-item">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title" data-bind="text:question5"></h5>
-          <h6 class="card-subtitle mb-2 text-muted"></h6>
-          <p class="card-text"></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="carousel-item">
-    <div class="card" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title" data-bind="text:question6"></h5>
-        <h6 class="card-subtitle mb-2 text-muted"></h6>
-        <p class="card-text"></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="carousel-item">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title" data-bind="text:question7"></h5>
-      <h6 class="card-subtitle mb-2 text-muted"></h6>
-      <p class="card-text"></p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="carousel-item">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title" data-bind="text:question8"></h5>
-      <h6 class="card-subtitle mb-2 text-muted"></h6>
-      <p class="card-text"></p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="carousel-item">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title" data-bind="text:question9"></h5>
-      <h6 class="card-subtitle mb-2 text-muted"></h6>
-      <p class="card-text"></p>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="carousel-item">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title" data-bind="text:question10"></h5>
-      <h6 class="card-subtitle mb-2 text-muted"></h6>
-      <p class="card-text"></p>
-    </div>
-  </div>
-</div>
-</div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span aria-hidden="true"><i class="far fa-arrow-alt-circle-left"></i></span>
+        <span class="sr-only"></span>
       </a>
       <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span aria-hidden="true"><i class="far fa-arrow-alt-circle-right"></i></span>
+        <span class="sr-only"></span>
       </a>
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-  </div>
+  </div><!--end quiz container-->
 
 
 
