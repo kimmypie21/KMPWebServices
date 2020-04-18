@@ -6,7 +6,18 @@ body{
     text-align: center;
 }
 
-#quizContainer{
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 5%;
+    font-size: 3.5em;
+    color:  #d7cec7;
+ }
+
+ #quizContainer{
   background-color: rgba(86, 86, 86, .80);
   margin-top: 5%;
   width: 80%;
@@ -18,50 +29,45 @@ body{
     box-shadow: 0 0 10px 2px;
 }
 
-.card{
-  background-color: rgba(86, 86, 86, .50);
-}
 
- .card-body{
-  background-color: rgba(86, 86, 86, .20);
-  font-family: 'Open Sans Condensed', sans-serif;
-  color:  #d7cec7;
-  width: 100%;
-  margin: 0 auto;
-  padding: 10%;
-  border: none;
-}
-.card-body h5{
-  font-size: 1.5em;
-}
-.card-body h6{
-  font-size: 2em;
-  margin: 2%;
-}
-
-h1 {
-    font-family: 'Shadows Into Light';
-    margin-top: 5%;
-    font-size: 3.5em;
+.question {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em;
     color:  #d7cec7;
- }
+    padding: 5%;
+}
 
- .carousel-control-prev i, .carousel-control-next i{
-   font-size: 2em;
-   color:  #d7cec7;
- }
+.answers {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #c09f80;
+    padding: 5%;
 
+}
 
+.answers .btn {
+    font-size: 1em;
+    font-weight: 800;
+}
 
+.correct {
+    color: green;
+}
 
+.incorrect {
+    color: red;
+}
+.score {
+  font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
 
+#previousButton {
+    float: left;
+    margin-left: 25%;
 
-
-
-
-
-
-
-
+}
 
 
