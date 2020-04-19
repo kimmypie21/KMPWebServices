@@ -10,10 +10,10 @@ body{
     box-sizing: border-box;
 }
 
-h1 {
+h1 , h2, p{
     font-family: 'Shadows Into Light', cursive;
     margin-top: 5%;
-    font-size: 3.5em;
+    font-size: 2em;
     color:  #d7cec7;
  }
 
@@ -29,6 +29,20 @@ h1 {
     box-shadow: 0 0 10px 2px;
 }
 
+
+table{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:  #d7cec7;
+  font-size: 1.5em;
+  border-collapse: collapse;
+  border: 1px solid #d7cec7;
+  margin: 3%;
+
+}
+
+table, th, td{
+  border: 1px solid #d7cec7;
+}
 
 .question {
     font-family: 'Open Sans Condensed', sans-serif;

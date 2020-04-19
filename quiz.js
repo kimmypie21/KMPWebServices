@@ -140,6 +140,8 @@ var app = {
                 scoreCard.innerHTML = "Score: " + this.score + "/" + this.questions.length;
             }
 
+            
+
         }
 
         window.onload = app.load();
